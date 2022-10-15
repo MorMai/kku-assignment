@@ -188,7 +188,7 @@ def normalStart():
                 font=("Courier", 16))
             correct.place(relx=0.435, rely=0.17)
             nm.score += 2
-            root.after(500, try_again)
+            root.after(100, try_again)
         else:
             wrong = Label(
                 root,
